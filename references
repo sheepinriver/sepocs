@@ -1,0 +1,4 @@
+source link: https://github.com/awslabs/amazon-redshift-utils/tree/master/src/CloudDataWarehouseBenchmark/Cloud-DWB-Derived-from-TPCDS/3TB
+redshift data types: https://docs.aws.amazon.com/redshift/latest/dg/c_Supported_data_types.html
+athena data types: https://docs.aws.amazon.com/athena/latest/ug/data-types.html
+
