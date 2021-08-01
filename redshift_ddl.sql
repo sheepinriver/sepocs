@@ -31,7 +31,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/customer_address/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/customer_address/'
 
 
 
@@ -56,7 +56,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/customer_demographics/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/customer_demographics/'
 
 
 
@@ -100,7 +100,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/date_dim/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/date_dim/'
 
 
 
@@ -132,7 +132,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/warehouse/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/warehouse/'
 
 
 
@@ -155,7 +155,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/ship_mode/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/ship_mode/'
 
 
 CREATE EXTERNAL TABLE spectrum_tpcds100g_csv.time_dim
@@ -180,7 +180,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/time_dim/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/time_dim/'
 
 
 
@@ -199,7 +199,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/reason/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/reason/'
 
 
 CREATE EXTERNAL TABLE spectrum_tpcds100g_csv.income_band
@@ -217,7 +217,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/income_band/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/income_band/'
 
 
 
@@ -255,7 +255,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/item/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/item/'
 
 
 CREATE EXTERNAL TABLE spectrum_tpcds100g_csv.store
@@ -299,7 +299,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/store/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/store/'
 
 
 
@@ -348,7 +348,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/call_center/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/call_center/'
 
 
 
@@ -385,7 +385,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/customer/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/customer/'
 
 
 
@@ -429,7 +429,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/web_site/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/web_site/'
 
 
 
@@ -466,7 +466,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/store_returns/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/store_returns/'
 
 
 
@@ -488,7 +488,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/household_demographics/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/household_demographics/'
 
 
 
@@ -519,7 +519,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/web_page/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/web_page/'
 
 
 
@@ -555,7 +555,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/promotion/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/promotion/'
 
 
 
@@ -583,7 +583,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/catalog_page/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/catalog_page/'
 
 
 
@@ -605,7 +605,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/inventory/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/inventory/'
 
 
 
@@ -651,7 +651,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/catalog_returns/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/catalog_returns/'
 
 
 
@@ -694,7 +694,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/web_returns/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/web_returns/'
 
 
 
@@ -745,7 +745,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/web_sales/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/web_sales/'
 
 
 CREATE EXTERNAL TABLE spectrum_tpcds100g_csv.catalog_sales
@@ -794,7 +794,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/catalog_sales/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/catalog_sales/'
 
 
 CREATE EXTERNAL TABLE spectrum_tpcds100g_csv.store_sales
@@ -832,7 +832,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT 
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://hly-s3-lake/TPC-DS/2.13/100GB/store_sales/'
+  's3://xxx-xxx-lake/TPC-DS/2.13/100GB/store_sales/'
 ;
 
 
